@@ -22,6 +22,7 @@ $(call add-product-dex-preopt-module-config,com.cyanogenmod.keyhandler,disable)
 
 # init.rc's
 PRODUCT_COPY_FILES += \
+        device/meizu/m2note/rootdir/enableswap.sh:root/enableswap.sh \
 	device/meizu/m2note/rootdir/init.mt6735.rc:root/init.mt6735.rc \
 	device/meizu/m2note/rootdir/init.ssd.rc:root/init.ssd.rc \
 	device/meizu/m2note/rootdir/init.xlog.rc:root/init.xlog.rc \
