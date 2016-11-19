@@ -1,6 +1,10 @@
 # Release name
 PRODUCT_RELEASE_NAME := m2note
 
+# Sign the build with real certs
+# PS: if you're not me you need to generate your own certs
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/meizu/moyster/releasekey
+
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
