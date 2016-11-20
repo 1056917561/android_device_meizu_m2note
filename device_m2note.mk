@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 	device/meizu/m2note/rootdir/init.ssd.rc:root/init.ssd.rc \
 	device/meizu/m2note/rootdir/init.xlog.rc:root/init.xlog.rc \
 	device/meizu/m2note/rootdir/init.rc:root/init.rc \
+	device/meizu/m2note/rootdir/init.usb.rc:root/init.usb.rc \
 	device/meizu/m2note/rootdir/init.mt6735.usb.rc:root/init.mt6735.usb.rc \
 	device/meizu/m2note/rootdir/init.recovery.mt6735.rc:root/init.recovery.mt6735.rc \
 	device/meizu/m2note/rootdir/init.project.rc:root/init.project.rc \
