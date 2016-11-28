@@ -33,6 +33,9 @@
         that can be set by the user. -->
     <integer name="config_screenBrightnessDim">20</integer>
 
+    <!-- disable button backlight settings -->
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
 
